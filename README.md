@@ -29,7 +29,6 @@
 │   ├── pages/           # Home / Tarot / Astrology / Community / Library
 │   └── utils/           # localStorage、DeepSeek、会员状态等工具
 ├── public/              # favicon 和 PWA manifest
-├── .github/workflows/   # GitHub Pages 自动部署
 ├── package.json
 └── README.md
 ```
@@ -71,7 +70,7 @@ VITE_DEEPSEEK_KEY=your_deepseek_api_key
 base: '/AstroTarot/'
 ```
 
-推送到 `master` 后，GitHub Actions 会构建并发布到 `gh-pages` 分支。
+当前 GitHub token 没有 `workflow` 权限，所以自动部署 workflow 暂未提交。后续给 GitHub CLI 重新授权 `workflow` scope 后，可以添加 GitHub Pages workflow，或在本地运行 `npm run build` 后手动发布 `dist`。
 
 ## 拆分说明
 
