@@ -1,0 +1,20 @@
+{
+  "name": "Lunaria Tarot",
+  "short_name": "Lunaria",
+  "description": "Tarot, astrology, birth-chart notes, and reflective journaling.",
+  "start_url": "/AstroTarot/",
+  "scope": "/AstroTarot/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2d2618",
+  "theme_color": "#faf4e8",
+  "icons": [
+    {
+      "src": "/AstroTarot/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "entertainment"]
+}
